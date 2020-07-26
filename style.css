@@ -1,0 +1,199 @@
+/*Font Imports*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin:0;
+  padding:0;
+  background: #454545 url("./media/parallax.jpg");
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+header {
+  background-color: rgb(95,95,95);
+}
+.header-logo {
+  width:25vw;
+}
+.header-table {
+  width:100%; 
+  color:#efe0a5;
+}
+.header-table td{
+  text-align:center;
+  width:30%;
+}
+.header-table h2 {
+  font-size: 5vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.parallax-container {
+  height:auto;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  padding-top: 30px;
+  padding-bottom: 50px;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+.parallax-table td{
+  text-align:center;
+}
+.parallax-h3 {
+  font-size: 36px;
+  cursor:default;
+}
+.parallax-button {
+  display:inline-block;
+  
+  padding:10px;
+  margin:0;
+  
+  font-size: 24px;
+  border-radius:5px;
+  
+  background-color:#efe0a5;
+  color:black;
+  
+  
+  transition-duration:300ms;
+} .parallax-button:hover {
+  
+  background-color:grey;
+  color:white;
+  
+  transition-duration:250ms;
+}
+
+
+.body-container {
+  width:auto;
+  background-color: #eee;
+  padding: 1em 2.5em;
+}
+.text-section {
+  background-color:white;
+  padding:1em;
+  margin:2em 1em;
+}
+
+footer {
+  background-color:#454545;
+  color:#efe0a5;
+  display:flex;
+  justify-content:center;
+  padding:5px;
+}
+.footer-div {
+  border-right: 1px #efe0a5 solid;
+  width:24.5%;
+  text-align:center;
+  min-height:100px;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+} .footer-div:last-child {
+    border-right:none;
+} .footer-div a {
+  color:#efe0a5;
+}
+.footer-logo{
+  max-width:149px;
+  max-height:150px;
+}
+
+.redirector {
+  text-align:right;
+  display:block;
+}
+
+.social-media-icon {
+  font-size: 50px;
+  margin:15px;
+  color:#efe0a5;
+}
+
+.google-map {
+  width:100%;
+  height:300px;
+  border:0;
+}
+/*Mobile Responsive*/
+@media screen and (max-width:600px) {
+  header {
+    box-shadow: 1px 0 10px black;
+  }
+  .body-container {
+    padding: 1em;
+  }
+  footer {
+    display:block;
+  }
+  .footer-div {
+    border-right:none;
+    border-bottom: 1px dotted #efe0a5;
+    width:auto;
+    display:block;
+    padding-top:15px;
+    padding-bottom:5px;
+  } .footer-div:last-child {
+    border-bottom:none;
+  }
+  .footer-logo {
+    width:150px;
+  }
+  .social-media-icon {
+    font-size:80px;
+  }
+}
+.price-table, th, td {
+  border-collapse: collapse;
+  border: none;
+  padding: 5px;
+}
+
+.price-table th {
+  text-align: left;
+}
+
+.price-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.price-table tr td:last-child {
+  width: 100%;
+} 
+.price-table td {
+ width:40%; 
+}
+.slideshow-section {
+	background-color: white;
+	padding: 1em;
+	margin: 0px auto;
+	font-size: large;
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	.hours-table{
+		width:100%; 
+		border-collapse:collapse;
+	}
+	.hours-table td{ 
+		padding:7px;
+	}
+
+  .input-container {
+    margin-top:25px;
+    margin-bottom:25px;
+  }
