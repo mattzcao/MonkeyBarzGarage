@@ -3,4 +3,4 @@ Website that I designed for a self-service garage in Bossier City, LA. If you se
 
 Website designed for desktop, only the footer is mobile responsive.
 
-Find the website *[here](https://noobly387.github.io/MonkeyBarzGarage/)*
+Find the website *[here](https://mattzcao.github.io/MonkeyBarzGarage/)*
